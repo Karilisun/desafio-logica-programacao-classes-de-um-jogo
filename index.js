@@ -1,3 +1,4 @@
+//Hero Type
 let type = {
     0: ["Warrior", "Sword"],
     1: ["Mage", "Magic"],
@@ -5,6 +6,7 @@ let type = {
     3: ["Ninja", "Shuriken"]
   }
 
+//Hero Action
 class heroAction{
   constructor(heroName, heroAge){
     this.heroName = heroName
